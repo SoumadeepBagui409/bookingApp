@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const bookSchema = mongoose.bookSchema({
+const bookSchema = mongoose.Schema({
     userId:{
         type:String
     },
