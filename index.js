@@ -40,7 +40,7 @@ app.post('/user',async(req,res)=>{
         res.redirect('/list');
     }
     catch(err){
-      res.send('showError',{error:err.message,back:'/user'});
+      res.render('showError',{error:err.message,back:'/user'});
     }
 
 })
