@@ -44,11 +44,7 @@ To run this project run
 
 ## REST API
 
-#### Get User form 
 
-```http
-  GET /
-```
 
 #### Get user regiteration forms 
 
